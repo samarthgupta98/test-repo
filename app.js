@@ -16,7 +16,7 @@ app.post('/api/post', (req, res) => {
   console.log('Received data:', { name, email });
 
   // Send a response
-  res.status(200).json({ message: 'Data received successfully' });
+  res.status(200).json({ message: 'this is from master ' });
 });
 
 // Start the server
